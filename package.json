@@ -1,0 +1,15 @@
+{
+  "name": "@thombruce/vue-fountain",
+  "version": "0.1.0",
+  "description": "Fountain screenplay parser for Vue.js",
+  "files": [
+    "src",
+    "nuxt"
+  ],
+  "repository": "https://github.com/thombruce/vue-fountain",
+  "author": "Thom Bruce <thom@thombruce.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@thombruce/fountain-js": "^1.5.1"
+  }
+}
