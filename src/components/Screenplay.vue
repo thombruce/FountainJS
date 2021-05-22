@@ -1,7 +1,7 @@
 <template>
   <article class='screenplay'>
-    <header class='title-page' v-if='title' v-html='document.html.title_page'></header>
-    <div class='script' v-html='document.html.script'></div>
+    <header class='title-page' v-if='title' v-html='screenplay.html.title_page'></header>
+    <div class='script' v-html='screenplay.html.script'></div>
   </article>
 </template>
 
@@ -18,5 +18,5 @@ export default {
 </script>
 
 <style>
-@import '../assets/css/screenplay';
+@import '../assets/screenplay';
 </style>
