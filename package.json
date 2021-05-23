@@ -1,6 +1,6 @@
 {
   "name": "@thombruce/vue-fountain",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fountain screenplay parser for Vue.js",
   "files": [
     "src",
