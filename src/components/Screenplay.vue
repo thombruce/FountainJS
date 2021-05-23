@@ -6,7 +6,9 @@ var getChildrenTextContent = function (children) {
     return node.children
       ? getChildrenTextContent(node.children)
       : node.text
-  }).join('\n')
+  })
+    .join('\n')
+    .replace(/^\s+|\s+$/g, '')
 }
 
 export default {
