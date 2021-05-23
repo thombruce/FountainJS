@@ -1,5 +1,11 @@
 import { join } from "path"
 
+import fountain from '../src/fountain'
+
+const parseFountain = file => fountain.parse(file, function (output) {
+  return { ...output, ...{ date: new Date(output.date) } } // { title: '', html: { title_page: '', script: '' } }
+})
+
 export default function () {
   const { nuxt } = this
 
@@ -15,4 +21,12 @@ export default function () {
       prefix: "fountain"
     })
   })
+
+  if (nuxt.options.content) {
+    // Extend Nuxt Content
+    this.nuxt.hook("content:options", (options) => {
+      // Parse content files with the .fountain extension
+      options.extendParser['.fountain'] = parseFountain
+    })
+  }
 }
