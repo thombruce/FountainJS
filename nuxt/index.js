@@ -18,7 +18,8 @@ export default function () {
     // Add ./components dir to the list
     dirs.push({
       path: join(__dirname, "../src/components"),
-      prefix: "fountain"
+      prefix: "fountain",
+      level: 1
     })
   })
 
