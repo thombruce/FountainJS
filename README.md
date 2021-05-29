@@ -59,7 +59,7 @@ What are we going to do?
 
 You can also use this component in your Nuxt Content Markdown files, but be careful; you should wrap the interior slot content in `<template></template>` tags to have this behave as expected:
 
-```md
+```html
 <fountain-screenplay>
 <template>
 INT. MUSIC ROOM - EVENING
