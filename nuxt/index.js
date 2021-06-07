@@ -31,3 +31,7 @@ export default function () {
     })
   }
 }
+
+// Used in conjunction with addModule(opts, requireOnce)
+// to prevent a module being required more than once.
+module.exports.meta = require('../package.json')
