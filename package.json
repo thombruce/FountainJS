@@ -1,0 +1,19 @@
+{
+  "name": "fountain-monorepo",
+  "version": "0.0.0",
+  "author": "Thom Bruce <thom@thombruce.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "yarn release:patch",
+    "release:patch": "yarn build && lerna publish --yes --cd-version=patch",
+    "release:minor": "yarn build && lerna publish --yes --cd-version=minor",
+    "release:major": "yarn build && lerna publish --yes --cd-version=major"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
