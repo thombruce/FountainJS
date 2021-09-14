@@ -4,7 +4,7 @@
   "title": "Fountain.js",
   "description": "JavaScript parser for Fountain markup language.",
   "main": "src/fountain.js",
-  "repository": "https://github.com/thombruce/fountain-js.git",
+  "repository": "https://github.com/thombruce/fountain.git",
   "author": "Thom Bruce <code@thombruce.com> (https://thombruce.com)",
   "contributors": ["Matt Daly"],
   "license": "MIT"
