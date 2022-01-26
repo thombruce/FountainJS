@@ -1,6 +1,6 @@
 {
   "name": "@fountainjs/nuxt",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "description": "Fountain screenplay parser for Nuxt",
   "main": "src/index.js",
   "files": [
@@ -10,6 +10,6 @@
   "author": "Thom Bruce <thom@thombruce.com>",
   "license": "MIT",
   "dependencies": {
-    "@fountainjs/vue": "^1.5.3"
+    "@fountainjs/vue": "^1.6.0"
   }
 }
