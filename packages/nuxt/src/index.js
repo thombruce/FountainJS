@@ -1,6 +1,6 @@
 import { join } from "path"
 
-import fountain from '../src/fountain'
+import fountain from "@fountainjs/vue"
 
 const parseFountain = file => fountain.parse(file, function (output) {
   return { ...output, ...{ date: new Date(output.date) } } // { title: '', html: { title_page: '', script: '' } }

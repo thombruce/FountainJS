@@ -1,5 +1,5 @@
 {
-  "name": "@thombruce/fountain-js",
+  "name": "@fountainjs/parser",
   "version": "1.5.3",
   "title": "Fountain.js",
   "description": "JavaScript parser for Fountain markup language.",
