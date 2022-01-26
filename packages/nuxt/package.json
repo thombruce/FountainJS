@@ -9,6 +9,9 @@
   "repository": "https://github.com/thombruce/fountain",
   "author": "Thom Bruce <thom@thombruce.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@fountainjs/vue": "^1.6.0"
   }
