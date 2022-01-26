@@ -1,6 +1,6 @@
 {
   "name": "@fountainjs/nuxt",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Fountain screenplay parser for Nuxt",
   "main": "src/index.js",
   "files": [
