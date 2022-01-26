@@ -1,4 +1,4 @@
-import { join } from "path"
+import { join, dirname } from "path"
 
 import fountain from "@fountainjs/vue"
 
@@ -17,7 +17,7 @@ export default function () {
   this.nuxt.hook("components:dirs", (dirs) => {
     // Add ./components dir to the list
     dirs.push({
-      path: "node_modules/@fountainjs/vue/src/components",
+      path: join(dirname(require.resolve("@fountainjs/vue/package.json")), "src/components"),
       prefix: "fountain",
       level: 1
     })
