@@ -1,6 +1,6 @@
 {
   "name": "@fountainjs/astro",
-  "version": "1.8.3",
+  "version": "1.9.0",
   "description": "Fountain screenplay parser for Astro.",
   "main": "src/index.ts",
   "repository": "https://github.com/thombruce/fountain.js.git",
