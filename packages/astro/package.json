@@ -1,6 +1,6 @@
 {
   "name": "@fountainjs/astro",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "Fountain screenplay parser for Astro.",
   "main": "src/index.ts",
   "repository": "https://github.com/thombruce/fountain.js.git",
@@ -10,7 +10,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@fountainjs/vue": "^1.8.3",
+    "@fountainjs/vue": "^1.9.1",
     "astro": "^1.1.3",
     "vfile": "^5.3.4",
     "vite": "^3.0.9"

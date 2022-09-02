@@ -1,6 +1,6 @@
 {
   "name": "@fountainjs/nuxt",
-  "version": "1.8.3",
+  "version": "1.9.1",
   "description": "Fountain screenplay parser for Nuxt",
   "main": "src/index.js",
   "files": [
@@ -13,6 +13,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@fountainjs/vue": "^1.8.3"
+    "@fountainjs/vue": "^1.9.1"
   }
 }
