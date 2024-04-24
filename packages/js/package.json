@@ -1,9 +1,10 @@
 {
-  "name": "@fountainjs/parser",
+  "name": "@thombruce/fountainjs",
   "version": "1.9.1",
-  "title": "Fountain.js",
+  "title": "FountainJS",
   "description": "JavaScript parser for Fountain markup language.",
   "main": "src/fountain.js",
+  "style": "src/fountain.css",
   "repository": "https://github.com/thombruce/fountain.git",
   "author": "Thom Bruce <code@thombruce.com> (https://thombruce.com)",
   "contributors": [

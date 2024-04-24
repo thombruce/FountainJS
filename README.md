@@ -1,4 +1,4 @@
-<h1 id="fountain-js" align="center">Fountain.js</h1>
+<h1 id="fountain-js" align="center">FountainJS</h1>
 
 <p align="center"><a href="https://www.patreon.com/thombruce"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron"></a></p>
 

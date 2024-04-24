@@ -13,6 +13,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@fountainjs/parser": "^1.9.1"
+    "@thombruce/fountainjs": "^1.9.1"
   }
 }

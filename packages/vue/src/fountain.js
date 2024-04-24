@@ -1,3 +1,3 @@
-import fountain from '@fountainjs/parser'
+import fountain from '@thombruce/fountainjs'
 
 export default fountain
