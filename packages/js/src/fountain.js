@@ -277,7 +277,7 @@
         case 'dialogue_begin': html.push('<div class=\"dialogue' + (token.dual ? ' ' + token.dual : '') + '\">'); break;
         case 'character': html.push('<h4>' + token.text + '</h4>'); break;
         case 'parenthetical': html.push('<p class=\"parenthetical\">' + token.text + '</p>'); break;
-        case 'dialogue': html.push('<p>' + token.text + '</p>'); break;
+        case 'dialogue': html.push('<p class=\"lines\">' + token.text + '</p>'); break;
         case 'dialogue_end': html.push('</div> '); break;
         case 'dual_dialogue_end': html.push('</div> '); break;
 
@@ -288,8 +288,8 @@
         case 'boneyard_begin': html.push('<!-- '); break;
         case 'boneyard_end': html.push(' -->'); break;
 
-        case 'action': html.push('<p>' + token.text + '</p>'); break;
-        case 'centered': html.push('<p class=\"centered\">' + token.text + '</p>'); break;
+        case 'action': html.push('<p class=\"action\">' + token.text + '</p>'); break;
+        case 'centered': html.push('<p class=\"center\">' + token.text + '</p>'); break;
         
         case 'page_break': html.push('<hr />'); break;
         case 'line_break': html.push('<br />'); break;
