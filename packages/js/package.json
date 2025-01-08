@@ -1,6 +1,6 @@
 {
   "name": "@thombruce/fountainjs",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "title": "FountainJS",
   "description": "JavaScript parser for Fountain markup language.",
   "main": "src/fountain",
