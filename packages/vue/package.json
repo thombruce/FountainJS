@@ -1,6 +1,6 @@
 {
   "name": "@fountainjs/vue",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Fountain screenplay parser for Vue.js",
   "main": "src/fountain.js",
   "files": [
@@ -13,6 +13,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@thombruce/fountainjs": "^2.2.0"
+    "@thombruce/fountainjs": "^2.2.1"
   }
 }
