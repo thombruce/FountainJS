@@ -2,7 +2,7 @@
   'use strict';
 
   var regex = {
-    title_page: /^((?:title|credit|author[s]?|source|notes|(?:draft )?date|contact(?: info)?|copyright|revision)\:)/gim,
+    title_page: /^((?:title|credit|author[s]?|source|notes|(?:draft )?date|contact(?: info)?|copyright|revision|description)\:)/gim,
 
     scene_heading: /^((?:\*{0,3}_?)?(?:(?:int|ext|est|i\/e)[. ]).+)|^(?:\.(?!\.+))(.+)/i,
     scene_number: /( *#(.+)# *)/,
@@ -230,6 +230,7 @@
         contact,
         copyright,
         revision,
+        description,
         title_page = [],
         html = [],
         output;
@@ -278,6 +279,9 @@
           title_page.push('<p class=\"revision\">' + token.text + '</p>');
           revision = token.text.replace('<br />', ' ').replace(/<(?:.|\n)*?>/g, '');
           break;
+        case 'description':
+          description = token.text.replace('<br />', ' ').replace(/<(?:.|\n)*?>/g, '');
+          break;
 
         case 'scene_heading': html.push('<h3' + (token.scene_number ? ' id=\"' + token.scene_number + '\">' : '>') + token.text + '</h3>'); break;
         case 'transition': html.push('<h2>' + token.text + '</h2>'); break;
@@ -318,6 +322,7 @@
       contact_info: contact,
       copyright,
       revision,
+      description,
       html: {
         title_page: title_page.join(''),
         script: html.join('')
